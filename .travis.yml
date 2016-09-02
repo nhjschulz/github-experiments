@@ -11,4 +11,4 @@ before_script:
 - cd build
 - cmake ../hello
 
-script: make
+script: make && make test
